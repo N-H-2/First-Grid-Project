@@ -6,12 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mondrian Project</title>
   <style>
-    body {
+    body,html {
+      margin: 0;
+      padding: 0;
+    }
+    .flex-container {
       min-height: 100vh;
       display: flex;
       justify-content: center;
       align-items: center;
-      margin: 0;
     }
 
     .container {
@@ -72,9 +75,9 @@
     }
   </style>
 </head>
-
 <body>
-  <div class="container">
+  <div class="flex-container">
+    <div class="container">
     <div class="red"></div>
     <div class="gap-1"></div>
     <div class="gap-2"></div>
@@ -83,6 +86,7 @@
     <div class="blue"></div>
     <div class="yellow"></div>
     <div class="black"></div>
+  </div>
   </div>
 </body>
 </html>
